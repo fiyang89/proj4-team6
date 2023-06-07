@@ -22,7 +22,9 @@ Summarize results. Recommendation.
     - Before:
     ![image](https://github.com/fiyang89/proj4-team6/assets/120594187/84e86d88-814f-4f28-b5e7-45d19537398d)
 
+
     - After:
+    
     ![image](https://github.com/fiyang89/proj4-team6/assets/120594187/0cd60961-717b-4e94-a58a-23c405d9cabd)
     
 - A Python script initialized, trained, and evaluated the model
