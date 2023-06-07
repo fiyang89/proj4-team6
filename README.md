@@ -19,7 +19,8 @@ Summarize results. Recommendation.
 
 ## Data Model Implementation
 - [Kaggle Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) was cleaned, normalized, and standardized prior to model using Spark SQL. 
-    - Before:
+    - Before: 
+    
     ![image](https://github.com/fiyang89/proj4-team6/assets/120594187/84e86d88-814f-4f28-b5e7-45d19537398d)
 
 
