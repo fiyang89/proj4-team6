@@ -60,10 +60,10 @@ Summarize results. Recommendation.
 - Base Model Testing: Running base model testing with the same model architecture to find the ideal balancing technqiue.
     - Original unbalanced dataset, SMOTE technqiue and Random Under sampling technique.<br>
     
-    [Base Architecture](https://github.com/fiyang89/proj4-team6/blob/main/Images/Base_Model_Arch.png)
+    ![Base Architecture](https://github.com/fiyang89/proj4-team6/blob/main/Images/Base_Model_Arch.png)
     <br>
     Resulted: Random Undersampling having the better ROC Score and Accuracy score relative to SMOTE technique:<br>
-    [Results](https://github.com/fiyang89/proj4-team6/blob/main/Images/Base_Model_Scores.png)
+    ![Results](https://github.com/fiyang89/proj4-team6/blob/main/Images/Base_Model_Scores.png)
 ## Data Model Optimization
 - The model was optimized resulting in changes in model performance using Python script.
     - Images of optimizations
