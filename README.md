@@ -54,6 +54,9 @@ Summarize results. Recommendation.
     
     ![image](https://github.com/fiyang89/proj4-team6/assets/120594187/0cd60961-717b-4e94-a58a-23c405d9cabd)
     
+- Utilized get_dummies within Pandas to encode our categorical variables into numerical ones.
+    - Unbalanced Dataset: As eluded earlier in this report, our dataset was very imbalanced with 95% of the data with no stroke values. 
+    - Balancing Techniques: We used SMOTE () and Random undersampling to get a more balanced train set to train our data.
 - A Python script initialized, trained, and evaluated the model
     - Image of training models
     - Image of classification accuracy or r-squared
