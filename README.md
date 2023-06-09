@@ -5,7 +5,7 @@ According to the World Health Organization (WHO), stroke is the 2nd leading caus
 
 This dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relevant information about the patient.
 
-## Results
+## Pre-Stroke Identification
 - The current data indicates 95% of patients having No Stroke and only 5% of patients having a Stroke. 
 
 ![Stroke_NoStroke](https://github.com/fiyang89/proj4-team6/assets/120594187/dbe6f381-4321-463c-99df-6b8f02f042a7)
@@ -40,9 +40,6 @@ This dataset is used to predict whether a patient is likely to get stroke based 
 ![AgeBMI_Stroke_Risk_Outcomes](https://github.com/fiyang89/proj4-team6/assets/120594187/2c727f99-86cc-4edb-93af-7e6740ae3c06)
 
 
-## Summary
-Summarize results. Recommendation.
-
 ## Data Model Implementation
 - [Kaggle Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) was cleaned, normalized, and standardized prior to model using Spark SQL. 
     - Before: 
@@ -66,19 +63,20 @@ Summarize results. Recommendation.
     ![Results](https://github.com/fiyang89/proj4-team6/blob/main/Images/Base_Model_Scores.png)
 
 ## Data Model Optimization
-- The model was optimized resulting in changes in model performance using Keras Tuner. Below we establish an architecture for the Tuner. <br>
+- The model was optimized resulting in changes in model performance using Keras Tuner. Below we establish an architecture for the Tuner. 
+ <br>
 ![Initialze Model](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Initilizing_model.png)
 <br>
-- next we load in the tuner and run our model for optimization.
+- Next we load in the tuner and run our model for optimization.
 
 ![Tuning Model](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Tuning_to_Precision.png)
 <br>
 
-- below is the classification matrix for the first tunning example where an accuracy of 95% was achieved.
+- Below is the classification matrix for the first tunning example where an accuracy of 95% was achieved.
 
 ![Classification Matrix](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Classification_matrix.png)
 <br>
-- looking at the below confusion matrix you can see that this model produces many false negatives. We determined that we wanted a model with as few false negatives as possible.  <br>
+- Looking at the below confusion matrix you can see that this model produces many false negatives. We determined that we wanted a model with as few false negatives as possible.  <br>
 
 ![Confusion Matrix](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Confusion_matrix.png)
 
@@ -90,11 +88,10 @@ Summarize results. Recommendation.
 ![Tuning to Precision](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Tuning_to_Precision.png)
 <br>
 
-- the below shows a combined confusion matrix of all of the optimized models that we ran.
+- The below shows a combined confusion matrix of all of the optimized models that we ran.
 <br>
 
 ![Confusion Matrices](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/confusion_matrices.png)
-
 
 ## Summary
 ***Recall Optimization led to the fewest false negatives***
