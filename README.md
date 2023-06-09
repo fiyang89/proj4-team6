@@ -69,7 +69,7 @@ Summarize results. Recommendation.
 - The model was optimized resulting in changes in model performance using Python script.
     - Images of optimizations
 
-![DMO 1](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Initilizing_model.png)
+![Initialze Model](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Initilizing_model.png)
 ![DMO 2]()
 ![DMO 3]()
 ![DMO 4]()
