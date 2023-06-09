@@ -58,8 +58,11 @@ Summarize results. Recommendation.
     - Unbalanced Dataset: As eluded earlier in this report, our dataset was very imbalanced with 95% of the data with no stroke values. 
     - Balancing Techniques: We used SMOTE (Synthetically creates training data for minority class) and Random undersampling (undersamples majority class) to get a more balanced train set to train our data.
 - Base Model Testing: Running base model testing with the same model architecture to find the ideal balancing technqiue.
-    -Original unbalanced dataset, SMOTE technqiue and Random Under sampling technique.
+    - Original unbalanced dataset, SMOTE technqiue and Random Under sampling technique.<br>
+    
     [Base Architecture]()
+    <br>
+    Resulted: Random Undersampling having the better ROC Score and Accuracy score relative to SMOTE technique:<br>
     [Results]()
 ## Data Model Optimization
 - The model was optimized resulting in changes in model performance using Python script.
