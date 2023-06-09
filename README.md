@@ -66,14 +66,25 @@ Summarize results. Recommendation.
     ![Results](https://github.com/fiyang89/proj4-team6/blob/main/Images/Base_Model_Scores.png)
 
 ## Data Model Optimization
-- The model was optimized resulting in changes in model performance using Python script.
-   
+- The model was optimized resulting in changes in model performance using Keras Tuner. Below we establish an architecture for the Tuner. 
 ![Initialze Model](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Initilizing_model.png)
+<br>
+- next we load in the tuner and run our model for optimization.
 ![Tuning Model](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Loading_Tuner.png)
+<br>
+- below is the classification matrix for the first tunning example where an accuracy of 95% was achieved.
 ![Classification Matrix](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Classification_matrix.png)
+<br>
+- looking at the below confusion matrix you can see that this model produces many false negatives. We determined that we wanted a model with as few false negatives as possible.
 ![Confusion Matrix](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Confusion_matrix.png)
+<br>
+- We then began tuning to a variety of different metrics to include: accuracy, recall, ROC, precision, and precision at recall.
 ![Tuning to Precision](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Tuning_to_Precision.png)
+<br>
+- the below shows a combined confusion matrix of all of the optimized models that we ran.
 ![Confusion Matrices](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/confusion_matrices.png)
+<br>
+
 ## Summary
 ***Recall Optimization led to the fewest false negatives***
 * Found the best method for balancing our dataset was Under Sampling
