@@ -67,12 +67,13 @@ Summarize results. Recommendation.
 
 ## Data Model Optimization
 - The model was optimized resulting in changes in model performance using Python script.
-    - Images of optimizations
-
+   
 ![Initialze Model](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Initilizing_model.png)
-![DMO 2]()
-![DMO 3]()
-![DMO 4]()
+![Tuning Model](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Loading_Tuner.png)
+![Classification Matrix](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Classification_matrix.png)
+![Confusion Matrix](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Confusion_matrix.png)
+![Tuning to Precision](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Tuning_to_Precision.png)
+![Confusion Matrices](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/confusion_matrices.png)
 ## Summary
 ***Recall Optimization led to the fewest false negatives***
 * Found the best method for balancing our dataset was Under Sampling
