@@ -56,11 +56,11 @@ Summarize results. Recommendation.
     
 - Utilized get_dummies within Pandas to encode our categorical variables into numerical ones.
     - Unbalanced Dataset: As eluded earlier in this report, our dataset was very imbalanced with 95% of the data with no stroke values. 
-    - Balancing Techniques: We used SMOTE () and Random undersampling to get a more balanced train set to train our data.
-- A Python script initialized, trained, and evaluated the model
-    - Image of training models
-    - Image of classification accuracy or r-squared
-
+    - Balancing Techniques: We used SMOTE (Synthetically creates training data for minority class) and Random undersampling (undersamples majority class) to get a more balanced train set to train our data.
+- Base Model Testing: Running base model testing with the same model architecture to find the ideal balancing technqiue.
+    -Original unbalanced dataset, SMOTE technqiue and Random Under sampling technique.
+    [Base Architecture]()
+    [Results]()
 ## Data Model Optimization
 - The model was optimized resulting in changes in model performance using Python script.
     - Images of optimizations
