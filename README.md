@@ -65,9 +65,9 @@ This dataset is used to predict whether a patient is likely to get stroke based 
 ## Data Model Optimization
 - The model was optimized resulting in changes in model performance using Keras Tuner. Below we establish an architecture for the Tuner. 
  <br>
+ 
 ![Initialze Model](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Initilizing_model.png)
 <br>
-
 - Next we load in the tuner and run our model for optimization.
 
 ![Tuning Model](https://github.com/fiyang89/proj4-team6/blob/main/Images/NN%20Images/Tuning_to_Precision.png)
