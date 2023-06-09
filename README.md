@@ -62,7 +62,7 @@ Summarize results. Recommendation.
     
     ![Base Architecture](https://github.com/fiyang89/proj4-team6/blob/main/Images/Base_Model_Arch.png)
     <br>
-    Resulted: Random Undersampling having the better ROC Score and Accuracy score relative to SMOTE technique:<br>
+    Result: **Random Undersampling** having the better ROC Score and Accuracy score relative to SMOTE technique:<br>
     ![Results](https://github.com/fiyang89/proj4-team6/blob/main/Images/Base_Model_Scores.png)
 ## Data Model Optimization
 - The model was optimized resulting in changes in model performance using Python script.
