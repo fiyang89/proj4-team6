@@ -64,9 +64,18 @@ Summarize results. Recommendation.
     <br>
     - Result: **Random Undersampling** having the better ROC Score and Accuracy score relative to SMOTE technique:<br>
     ![Results](https://github.com/fiyang89/proj4-team6/blob/main/Images/Base_Model_Scores.png)
+
 ## Data Model Optimization
 - The model was optimized resulting in changes in model performance using Python script.
     - Images of optimizations
+
+![DMO 1]()
+![DMO 2]()
+![DMO 3]()
+![DMO 4]()
+## Summary
+Summarize results. Recommendation.
+
 
 ## Sources
 - [Kaggle Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
