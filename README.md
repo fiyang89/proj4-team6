@@ -74,8 +74,12 @@ Summarize results. Recommendation.
 ![DMO 3]()
 ![DMO 4]()
 ## Summary
-Summarize results. Recommendation.
-
+***Recall Optimization led to the fewest false negatives***
+* Found the best method for balancing our dataset was Under Sampling
+* Determined that we cared most about false negatives (predicting no stroke where a stroke actually occurred).
+* Model that was tuned to Recall produced the fewest false negatives, however it only produced an accuracy of 73%.
+* We would use this model as a pre-screening to be followed by an examination to determine any false positives
+* Through many trials we determined that the best way to optimize this model would be to increase the number of patients with strokes in the dataset.
 
 ## Sources
 - [Kaggle Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
